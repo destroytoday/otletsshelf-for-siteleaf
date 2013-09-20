@@ -1,0 +1,34 @@
+@import '_normalize'
+
+// variables
+
+$base-font: "Helvetica Neue", Helvetica, sans-serif
+
+// reset
+
+@media screen and (max-device-width: 480px)
+  html
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%
+
+*
+  box-sizing: border-box
+
+ul
+  padding: 0
+
+li
+  list-style-type: none
+
+// base
+
+body
+  font: 400 100%/1.65 $base-font
+  text-rendering: optimizeLegibility
+
+img
+  max-width: 100%
+
+a
+  img
+    vertical-align: top

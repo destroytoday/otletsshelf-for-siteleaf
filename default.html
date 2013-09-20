@@ -1,0 +1,19 @@
+{% capture content %}
+<h1>Hello World!</h1>
+
+<p>Please add the following meta fields to your site, or remove them from the template:</p>
+
+<ol>
+  {% unless site.meta.description %}<li>`description` - site description for search engines</li>{% endunless %}
+  {% unless site.meta.keywords %}<li>`keywords` - site keywords for search engines</li>{% endunless %}
+  {% unless site.meta.twitter %}<li>`twitter` - Twitter username for Twitter cards</li>{% endunless %}
+  {% unless site.meta.typekit %}<li>`typekit` - Typekit ID for hosted fonts</li>{% endunless %}
+  {% unless site.meta.symbolset %}<li>`symbolset` - Symbolset ID for hosted icons</li>{% endunless %}
+  {% unless site.meta.analytics %}<li>`analytics` - Google Analytics ID for analytics</li>{% endunless %}
+  {% unless site.meta.feed_url %}<li>`feed_url` - Feedburner feed URL (falls back to generated XML file)</li>{% endunless %}
+</ol>
+
+<p>Then, remove this content from the `/default.html` file and start coding!</p>
+{% endcapture %}
+
+{% include 'layouts/default' %}
