@@ -1,6 +1,6 @@
-# Siteleaf Skeleton
+# Otlet's Shelf
 
-Skeleton theme for Siteleaf
+Otlet's Shelf theme for Siteleaf
 
 ## Instructions
 
