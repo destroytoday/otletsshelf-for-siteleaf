@@ -1,0 +1,40 @@
+{% capture content %}
+<article class='post main-content'>
+  <aside class='sidebar'>
+    <section class='timestamp section'>
+      <h3>Posted</h3>
+      <time datetime='{{ date | date_to_xmlschema }}'>{{ date | date_to_long_string }}</time>
+    </section>
+    <section class='tags section'>
+      <h4>Tagged</h4>
+      <ul class='tag-list'>
+      {% for tag in taxonomy.tags %}
+        <li>
+          <a href='{{ tag.url }}'>{{ tag }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </section>
+  </aside>
+
+  <figure class='figure'>
+    <a class='cover' href='{{ meta.link }}'>
+      <img src='{{ assets.first.url }}' alt='{{ title }}'>
+    </a>
+    <figurecaption class='caption'>
+      <header class='header'>
+        <h1 class='title'>{{ title }}</h1>
+        <h2 class='author'>{{ taxonomy.author }}</h2>
+      </header>
+      <div class='description'>
+        {{ body }}
+      </div>
+      <footer class='footer'>
+        <a class='purchase' href='{{ meta.link }}'>Find on Amazon.com</a>
+      </footer>
+    </figurecaption>
+  </figure>
+</article>
+{% endcapture %}
+
+{% include 'layouts/default' %}

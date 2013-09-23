@@ -1,8 +1,14 @@
 @import '_normalize'
+@import '_mixins'
 
 // variables
 
-$base-font: "Helvetica Neue", Helvetica, sans-serif
+$serif-font: Georgia, sans-serif
+$sans-serif-font: "Helvetica Neue", Helvetica, sans-serif
+
+$bg-grey: #eaeaea
+$text-grey: #7C7C7C
+$text-black: black
 
 // reset
 
@@ -22,13 +28,184 @@ li
 
 // base
 
+html, body
+  background-color: $bg-grey
+
 body
-  font: 400 100%/1.65 $base-font
+  padding: 0 0 2.25em
+
+  border-top: 10px solid white
+  font: normal 100%/1.3125 $serif-font
+  color: $text-grey
   text-rendering: optimizeLegibility
+
+h1, h2, h3, h4
+  font-family: $sans-serif-font
+  color: $text-black
+
+h1
+  font-weight: bold
 
 img
   max-width: 100%
+  max-height: 100%
 
 a
+  text-decoration: none
+  color: $text-black
+
+  &:hover
+    border-bottom: 1px dotted black
+
   img
     vertical-align: top
+
+p
+  margin: 1em 0
+
+// modules
+
+.avatar
+  +border-radius(50%)
+  display: block
+  width: 9.375em
+  height: 9.375em
+  margin: 0 auto
+  background: url(/assets/avatar.jpg) no-repeat
+  background-size: contain
+
+  text-indent: -9999px
+
+  &:hover
+    border: none
+
+// main
+
+.main-wrapper
+  width: 58.75em
+  margin: 0 auto
+
+.main-header
+  padding: 3em 0
+  text-align: center
+
+  .title
+    margin-top: 1em
+
+  .description
+    width: 18em
+    margin: 1em auto 0
+
+.main-content
+  +clearfix
+  padding: 3em 0
+  border-top: 1px solid white
+  border-bottom: 1px solid white
+
+.main-footer
+  font-family: $sans-serif-font
+  padding: 2.25em 0
+  text-align: center
+
+// page
+
+.page
+  width: 58.75em
+  margin: 0 auto
+  padding-left: 11.75em
+  padding-right: 11.75em
+
+  p
+    font-size: 1.5em
+    line-height: 1.33em
+
+
+// posts
+
+.posts
+  .post
+    float: left
+    width: 11.75em
+    height: 11.75em
+    margin: 1.875em 0
+    border-bottom: 10px solid white
+
+    .thumbnail
+      display: block
+      width: 11.75em
+      height: 11.125em
+      line-height: 11.125em
+      text-align: center
+
+      img
+        +box-shadow(rgba(0, 0, 0, 0.4) 0px -2px 12px)
+        vertical-align: bottom
+
+    .header
+      display: none
+      width: 11.75em
+      height: 11.75em
+      padding: 0.625em
+
+      .title
+        font-weight: normal
+        color: white
+
+    &:hover
+      background-color: black
+
+      .thumbnail
+        display: none
+
+      .header
+        display: block
+        border-bottom: none
+
+// post
+
+.is-post
+  .post
+    .sidebar, .figure, .cover, .caption
+      float: left
+
+    .sidebar, .cover
+      margin-right: 2.25em
+
+    .sidebar
+      width: 9em
+
+    .section
+      margin-bottom: 1em
+
+    .figure
+      width: 47.5em
+
+    .cover
+      display: block
+      width: 23.5em
+
+      &:hover
+        border-bottom: none
+
+    .caption
+      width: 21.75em
+
+    .author
+      font-family: $serif-font
+      font-weight: normal
+      font-style: italic
+      color: $text-grey
+
+    .purchase
+      font-family: $sans-serif-font
+
+// tags
+
+.tag-title
+  padding: 1.25em 0
+  border-top: 1px solid white
+
+  font-size: 2em
+  font-weight: bold
+  line-height: 1em
+  text-align: center
