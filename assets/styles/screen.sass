@@ -41,10 +41,8 @@ body
 
 h1, h2, h3, h4
   font-family: $sans-serif-font
-  color: $text-black
-
-h1
   font-weight: bold
+  color: $text-black
 
 img
   max-width: 100%
@@ -78,6 +76,9 @@ p
 
   &:hover
     border: none
+
+.shadow
+  +box-shadow(rgba(0, 0, 0, 0.4) 0px -2px 12px)
 
 // main
 
@@ -138,7 +139,6 @@ p
       text-align: center
 
       img
-        +box-shadow(rgba(0, 0, 0, 0.4) 0px -2px 12px)
         vertical-align: bottom
 
     .header
@@ -165,43 +165,46 @@ p
 
 .is-post
   .post
-    .sidebar, .figure, .cover, .caption
+    .sidebar
       float: left
-
-    .sidebar, .cover
+      width: 9rem
       margin-right: 2.25em
 
-    .sidebar
-      width: 9em
+      font-size: 0.875em
 
     .section
       margin-bottom: 1em
 
     .figure
+      float: left
       width: 47.5em
 
     .cover
+      float: left
       display: block
       width: 23.5em
-
-      &:hover
-        border-bottom: none
+      margin-right: 2.25em
+      border-bottom: solid 30px white
+      text-align: center
 
     .caption
+      float: left
       width: 21.75em
 
     .author
       font-family: $serif-font
       font-weight: normal
       font-style: italic
-      color: $text-grey
+
+      a
+        color: $text-grey
 
     .purchase
       font-family: $sans-serif-font
 
-// tags
+// archive
 
-.tag-title
+.archive-title
   padding: 1.25em 0
   border-top: 1px solid white
 

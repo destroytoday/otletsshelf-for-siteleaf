@@ -19,12 +19,14 @@
 
   <figure class='figure'>
     <a class='cover' href='{{ meta.link }}'>
-      <img src='{{ assets.first.url }}' alt='{{ title }}'>
+      <img class='shadow' src='{{ assets.first.url }}' alt="{{ title | escape }}">
     </a>
     <figurecaption class='caption'>
       <header class='header'>
         <h1 class='title'>{{ title }}</h1>
-        <h2 class='author'>{{ taxonomy.author }}</h2>
+        <h2 class='author'>
+          <a href='{{ taxonomy.author.first.url }}'>{{ taxonomy.author.first }}</a>
+        </h2>
       </header>
       <div class='description'>
         {{ body }}
