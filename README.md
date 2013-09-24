@@ -39,7 +39,7 @@
 
 ## Screenshots
 
-[![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)]](http://otletsshelf.siteleaf.net)
-[![](http://dstry.it/RaXY/Screen%20Shot%202013-09-24%20at%206.09.08%20PM.png)]](http://otletsshelf.siteleaf.net)
-[![](http://dstry.it/RaYD/Screen%20Shot%202013-09-24%20at%206.11.20%20PM.png)]](http://otletsshelf.siteleaf.net)
-[![](http://dstry.it/RbMk/Screen%20Shot%202013-09-24%20at%206.12.49%20PM.png)]](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RaXY/Screen%20Shot%202013-09-24%20at%206.09.08%20PM.png)](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RaYD/Screen%20Shot%202013-09-24%20at%206.11.20%20PM.png)](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RbMk/Screen%20Shot%202013-09-24%20at%206.12.49%20PM.png)](http://otletsshelf.siteleaf.net)
