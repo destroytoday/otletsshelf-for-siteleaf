@@ -26,6 +26,14 @@
 - smaller type on book sidebar
 - shelf in single book view
 
+## Installation instructions
+
+1. [Download](https://github.com/destroytoday/otletsshelf-for-siteleaf/archive/master.zip) the theme ZIP file.
+2. Upload the theme ZIP file to your [Siteleaf](http://siteleaf.com) site in the `Theme` section.
+3. Add a site meta field `description`.
+4. Add a `Library` page.
+5. Add a post with the description as the body, `Tags` and `Author` taxonomy, a `link` meta field to the Amazon page, and an asset to use as the cover.
+
 ## Dev Instructions
 
 1. Download or fork this repo.
