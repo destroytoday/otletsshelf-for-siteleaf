@@ -2,7 +2,14 @@
 
 Otlet's Shelf theme for Siteleaf
 
-## Instructions
+## Screenshots
+
+![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)
+![](http://dstry.it/RaXY/Screen%20Shot%202013-09-24%20at%206.09.08%20PM.png)
+![](http://dstry.it/RaYD/Screen%20Shot%202013-09-24%20at%206.11.20%20PM.png)
+![](http://dstry.it/RbMk/Screen%20Shot%202013-09-24%20at%206.12.49%20PM.png)
+
+## Dev Instructions
 
 1. Download or fork this repo.
 2. Open Terminal in the directory.
