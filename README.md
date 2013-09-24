@@ -1,6 +1,10 @@
 # Otlet's Shelf theme for Siteleaf
 
+[![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)](http://otletsshelf.siteleaf.net)
+
 [Otlet's Shelf](http://otletsshelf.tumblr.com) originated as a Tumblr theme and an Amazon bookmarklet, designed and developed by [Andrew LeClair](http://www.andrewleclair.com/) & [Rob Giampietro](http://www.linedandunlined.com/). This is its [Siteleaf](http://siteleaf.com) port.
+
+[View demo](http://otletsshelf.siteleaf.net)
 
 ## About Otlet's Shelf
 
@@ -35,7 +39,7 @@
 
 ## Screenshots
 
-![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)
-![](http://dstry.it/RaXY/Screen%20Shot%202013-09-24%20at%206.09.08%20PM.png)
-![](http://dstry.it/RaYD/Screen%20Shot%202013-09-24%20at%206.11.20%20PM.png)
-![](http://dstry.it/RbMk/Screen%20Shot%202013-09-24%20at%206.12.49%20PM.png)
+[![](http://dstry.it/RaXB/Screen%20Shot%202013-09-24%20at%206.05.04%20PM.png)]](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RaXY/Screen%20Shot%202013-09-24%20at%206.09.08%20PM.png)]](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RaYD/Screen%20Shot%202013-09-24%20at%206.11.20%20PM.png)]](http://otletsshelf.siteleaf.net)
+[![](http://dstry.it/RbMk/Screen%20Shot%202013-09-24%20at%206.12.49%20PM.png)]](http://otletsshelf.siteleaf.net)
